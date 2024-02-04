@@ -1,0 +1,57 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.stopwatch {
+  height: 300px;
+  width: 250px;
+}
+
+.heading {
+  text-align: center;
+  margin-top: 50px;
+  font-weight: 700;
+  font-size: 40px;
+  color: #1fa9d5;
+}
+
+.text {
+  text-align: center;
+}
+
+.contains-stopwatch {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.stopwatch-container {
+  position: relative;
+}
+
+#display {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  color: #1fa9d5;
+}
+
+.button {
+  height: 40px;
+  width: 100px;
+  background-color: #d9d9d9;
+  color: #1fa9d5;
+  border: 0px;
+  border-radius: 20px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 30px;
+}
